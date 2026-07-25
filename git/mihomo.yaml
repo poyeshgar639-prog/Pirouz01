@@ -31,43 +31,43 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: "📢 https://t.me/irnova_proxy", server: 192.0.2.1, port: 443, type: vmess, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, alterId: 0, cipher: auto, tls: true, servername: blue.pirouziha.dpdns.org, network: ws, ws-opts: {path: /?fake=1, headers: {Host: blue.pirouziha.dpdns.org}}, udp: false}
   - {name: "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01", server: 192.0.2.1, port: 443, type: vmess, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, alterId: 0, cipher: auto, tls: true, servername: blue.pirouziha.dpdns.org, network: ws, ws-opts: {path: /?fake=1, headers: {Host: blue.pirouziha.dpdns.org}}, udp: false}
-  - {name: "سرویس رایگان نوا blue.pirouziha.dpdns.org:443 [VLESS]", server: blue.pirouziha.dpdns.org, port: 443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 172.66.3.140:443 [VLESS]", server: 172.66.3.140, port: 443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 104.18.33.177:443 [VLESS]", server: 104.18.33.177, port: 443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 173.245.58.146:2083 [VLESS]", server: 173.245.58.146, port: 2083, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 104.17.156.31:443 [VLESS]", server: 104.17.156.31, port: 443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 104.17.24.200:2083 [VLESS]", server: 104.17.24.200, port: 2083, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 104.17.114.212:2096 [VLESS]", server: 104.17.114.212, port: 2096, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 104.17.102.108:2053 [VLESS]", server: 104.17.102.108, port: 2053, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 104.19.35.190:8443 [VLESS]", server: 104.19.35.190, port: 8443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 104.17.210.23:2096 [VLESS]", server: 104.17.210.23, port: 2096, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 104.16.253.25:2096 [VLESS]", server: 104.16.253.25, port: 2096, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 104.18.33.247:8443 [VLESS]", server: 104.18.33.247, port: 8443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 108.162.198.219:2096 [VLESS]", server: 108.162.198.219, port: 2096, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 104.26.9.34:8443 [VLESS]", server: 104.26.9.34, port: 8443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 172.67.77.160:2087 [VLESS]", server: 172.67.77.160, port: 2087, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 173.245.58.98:2087 [VLESS]", server: 173.245.58.98, port: 2087, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 172.66.0.52:8443 [VLESS]", server: 172.66.0.52, port: 8443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 172.67.77.107:2096 [VLESS]", server: 172.67.77.107, port: 2096, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 104.26.15.224:2053 [VLESS]", server: 104.26.15.224, port: 2053, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 104.19.34.81:2096 [VLESS]", server: 104.19.34.81, port: 2096, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 104.17.18.149:8443 [VLESS]", server: 104.17.18.149, port: 8443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 162.159.35.104:443 [VLESS]", server: 162.159.35.104, port: 443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 172.66.3.110:2083 [VLESS]", server: 172.66.3.110, port: 2083, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 104.17.161.132:2087 [VLESS]", server: 104.17.161.132, port: 2087, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 104.17.171.70:443 [VLESS]", server: 104.17.171.70, port: 443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 104.17.113.207:2053 [VLESS]", server: 104.17.113.207, port: 2053, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 104.17.107.171:8443 [VLESS]", server: 104.17.107.171, port: 8443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 91.193.58.66:2083 [VLESS]", server: 91.193.58.66, port: 2083, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 104.19.33.54:443 [VLESS]", server: 104.19.33.54, port: 443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 8.39.125.154:2087 [VLESS]", server: 8.39.125.154, port: 2087, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 162.159.33.168:2087 [VLESS]", server: 162.159.33.168, port: 2087, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 8.35.211.180:2053 [VLESS]", server: 8.35.211.180, port: 2053, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 104.17.156.194:443 [VLESS]", server: 104.17.156.194, port: 443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 104.19.149.49:2083 [VLESS]", server: 104.19.149.49, port: 2083, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 108.162.198.89:2096 [VLESS]", server: 108.162.198.89, port: 2096, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 104.17.164.118:8443 [VLESS]", server: 104.17.164.118, port: 8443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
-  - {name: "سرویس رایگان نوا 104.17.51.54:2053 [VLESS]", server: 104.17.51.54, port: 2053, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: safari, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا blue.pirouziha.dpdns.org:443 [VLESS]", server: blue.pirouziha.dpdns.org, port: 443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 172.67.67.142:2096 [VLESS]", server: 172.67.67.142, port: 2096, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 104.17.213.207:2096 [VLESS]", server: 104.17.213.207, port: 2096, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 104.17.208.239:2096 [VLESS]", server: 104.17.208.239, port: 2096, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 198.41.223.74:8443 [VLESS]", server: 198.41.223.74, port: 8443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 91.193.58.239:443 [VLESS]", server: 91.193.58.239, port: 443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 108.162.198.122:2083 [VLESS]", server: 108.162.198.122, port: 2083, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 104.17.25.25:443 [VLESS]", server: 104.17.25.25, port: 443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 198.41.223.29:443 [VLESS]", server: 198.41.223.29, port: 443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 91.193.58.248:8443 [VLESS]", server: 91.193.58.248, port: 8443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 91.193.58.80:8443 [VLESS]", server: 91.193.58.80, port: 8443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 162.159.39.188:8443 [VLESS]", server: 162.159.39.188, port: 8443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 104.17.18.24:2053 [VLESS]", server: 104.17.18.24, port: 2053, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 8.35.211.147:2083 [VLESS]", server: 8.35.211.147, port: 2083, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 104.18.33.121:2096 [VLESS]", server: 104.18.33.121, port: 2096, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 104.17.114.201:2096 [VLESS]", server: 104.17.114.201, port: 2096, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 104.19.33.248:2087 [VLESS]", server: 104.19.33.248, port: 2087, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 104.17.164.85:2053 [VLESS]", server: 104.17.164.85, port: 2053, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 198.41.223.29:2053 [VLESS]", server: 198.41.223.29, port: 2053, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 104.19.32.144:2096 [VLESS]", server: 104.19.32.144, port: 2096, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 104.17.29.157:2096 [VLESS]", server: 104.17.29.157, port: 2096, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 104.17.30.157:2096 [VLESS]", server: 104.17.30.157, port: 2096, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 104.19.50.127:8443 [VLESS]", server: 104.19.50.127, port: 8443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 104.17.108.8:2083 [VLESS]", server: 104.17.108.8, port: 2083, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 104.16.245.92:8443 [VLESS]", server: 104.16.245.92, port: 8443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 104.19.53.45:2096 [VLESS]", server: 104.19.53.45, port: 2096, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 104.17.154.155:2083 [VLESS]", server: 104.17.154.155, port: 2083, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 104.17.177.129:2096 [VLESS]", server: 104.17.177.129, port: 2096, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 173.245.59.8:443 [VLESS]", server: 173.245.59.8, port: 443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 173.245.58.122:2087 [VLESS]", server: 173.245.58.122, port: 2087, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 104.17.187.21:2053 [VLESS]", server: 104.17.187.21, port: 2053, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 104.17.149.110:2087 [VLESS]", server: 104.17.149.110, port: 2087, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 104.17.191.63:443 [VLESS]", server: 104.17.191.63, port: 443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 198.41.223.141:2087 [VLESS]", server: 198.41.223.141, port: 2087, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 198.41.209.157:2096 [VLESS]", server: 198.41.209.157, port: 2096, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 104.17.210.8:2087 [VLESS]", server: 104.17.210.8, port: 2087, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
+  - {name: "سرویس رایگان نوا 172.66.2.43:8443 [VLESS]", server: 172.66.2.43, port: 8443, type: vless, uuid: 14e3a203-a1c0-438c-86fc-8b13f4f3728d, tls: true, skip-cert-verify: false, servername: blue.pirouziha.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ShYRShFXEgkPEl4AW14BERRBRVdFEg1MVQcTCUQGVgsZAwhWHwFUHVcQHBFdDkMXEhcBCwpTFUU=, headers: {Host: blue.pirouziha.dpdns.org}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -79,42 +79,42 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - سرویس رایگان نوا blue.pirouziha.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا 172.66.3.140:443 [VLESS]
-      - سرویس رایگان نوا 104.18.33.177:443 [VLESS]
-      - سرویس رایگان نوا 173.245.58.146:2083 [VLESS]
-      - سرویس رایگان نوا 104.17.156.31:443 [VLESS]
-      - سرویس رایگان نوا 104.17.24.200:2083 [VLESS]
-      - سرویس رایگان نوا 104.17.114.212:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.102.108:2053 [VLESS]
-      - سرویس رایگان نوا 104.19.35.190:8443 [VLESS]
-      - سرویس رایگان نوا 104.17.210.23:2096 [VLESS]
-      - سرویس رایگان نوا 104.16.253.25:2096 [VLESS]
-      - سرویس رایگان نوا 104.18.33.247:8443 [VLESS]
-      - سرویس رایگان نوا 108.162.198.219:2096 [VLESS]
-      - سرویس رایگان نوا 104.26.9.34:8443 [VLESS]
-      - سرویس رایگان نوا 172.67.77.160:2087 [VLESS]
-      - سرویس رایگان نوا 173.245.58.98:2087 [VLESS]
-      - سرویس رایگان نوا 172.66.0.52:8443 [VLESS]
-      - سرویس رایگان نوا 172.67.77.107:2096 [VLESS]
-      - سرویس رایگان نوا 104.26.15.224:2053 [VLESS]
-      - سرویس رایگان نوا 104.19.34.81:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.18.149:8443 [VLESS]
-      - سرویس رایگان نوا 162.159.35.104:443 [VLESS]
-      - سرویس رایگان نوا 172.66.3.110:2083 [VLESS]
-      - سرویس رایگان نوا 104.17.161.132:2087 [VLESS]
-      - سرویس رایگان نوا 104.17.171.70:443 [VLESS]
-      - سرویس رایگان نوا 104.17.113.207:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.107.171:8443 [VLESS]
-      - سرویس رایگان نوا 91.193.58.66:2083 [VLESS]
-      - سرویس رایگان نوا 104.19.33.54:443 [VLESS]
-      - سرویس رایگان نوا 8.39.125.154:2087 [VLESS]
-      - سرویس رایگان نوا 162.159.33.168:2087 [VLESS]
-      - سرویس رایگان نوا 8.35.211.180:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.156.194:443 [VLESS]
-      - سرویس رایگان نوا 104.19.149.49:2083 [VLESS]
-      - سرویس رایگان نوا 108.162.198.89:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.164.118:8443 [VLESS]
-      - سرویس رایگان نوا 104.17.51.54:2053 [VLESS]
+      - سرویس رایگان نوا 172.67.67.142:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.213.207:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.208.239:2096 [VLESS]
+      - سرویس رایگان نوا 198.41.223.74:8443 [VLESS]
+      - سرویس رایگان نوا 91.193.58.239:443 [VLESS]
+      - سرویس رایگان نوا 108.162.198.122:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.25.25:443 [VLESS]
+      - سرویس رایگان نوا 198.41.223.29:443 [VLESS]
+      - سرویس رایگان نوا 91.193.58.248:8443 [VLESS]
+      - سرویس رایگان نوا 91.193.58.80:8443 [VLESS]
+      - سرویس رایگان نوا 162.159.39.188:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.18.24:2053 [VLESS]
+      - سرویس رایگان نوا 8.35.211.147:2083 [VLESS]
+      - سرویس رایگان نوا 104.18.33.121:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.114.201:2096 [VLESS]
+      - سرویس رایگان نوا 104.19.33.248:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.164.85:2053 [VLESS]
+      - سرویس رایگان نوا 198.41.223.29:2053 [VLESS]
+      - سرویس رایگان نوا 104.19.32.144:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.29.157:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.30.157:2096 [VLESS]
+      - سرویس رایگان نوا 104.19.50.127:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.108.8:2083 [VLESS]
+      - سرویس رایگان نوا 104.16.245.92:8443 [VLESS]
+      - سرویس رایگان نوا 104.19.53.45:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.154.155:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.177.129:2096 [VLESS]
+      - سرویس رایگان نوا 173.245.59.8:443 [VLESS]
+      - سرویس رایگان نوا 173.245.58.122:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.187.21:2053 [VLESS]
+      - سرویس رایگان نوا 104.17.149.110:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.191.63:443 [VLESS]
+      - سرویس رایگان نوا 198.41.223.141:2087 [VLESS]
+      - سرویس رایگان نوا 198.41.209.157:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.210.8:2087 [VLESS]
+      - سرویس رایگان نوا 172.66.2.43:8443 [VLESS]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -122,84 +122,84 @@ proxy-groups:
     tolerance: 50
     proxies:
       - سرویس رایگان نوا blue.pirouziha.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا 172.66.3.140:443 [VLESS]
-      - سرویس رایگان نوا 104.18.33.177:443 [VLESS]
-      - سرویس رایگان نوا 173.245.58.146:2083 [VLESS]
-      - سرویس رایگان نوا 104.17.156.31:443 [VLESS]
-      - سرویس رایگان نوا 104.17.24.200:2083 [VLESS]
-      - سرویس رایگان نوا 104.17.114.212:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.102.108:2053 [VLESS]
-      - سرویس رایگان نوا 104.19.35.190:8443 [VLESS]
-      - سرویس رایگان نوا 104.17.210.23:2096 [VLESS]
-      - سرویس رایگان نوا 104.16.253.25:2096 [VLESS]
-      - سرویس رایگان نوا 104.18.33.247:8443 [VLESS]
-      - سرویس رایگان نوا 108.162.198.219:2096 [VLESS]
-      - سرویس رایگان نوا 104.26.9.34:8443 [VLESS]
-      - سرویس رایگان نوا 172.67.77.160:2087 [VLESS]
-      - سرویس رایگان نوا 173.245.58.98:2087 [VLESS]
-      - سرویس رایگان نوا 172.66.0.52:8443 [VLESS]
-      - سرویس رایگان نوا 172.67.77.107:2096 [VLESS]
-      - سرویس رایگان نوا 104.26.15.224:2053 [VLESS]
-      - سرویس رایگان نوا 104.19.34.81:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.18.149:8443 [VLESS]
-      - سرویس رایگان نوا 162.159.35.104:443 [VLESS]
-      - سرویس رایگان نوا 172.66.3.110:2083 [VLESS]
-      - سرویس رایگان نوا 104.17.161.132:2087 [VLESS]
-      - سرویس رایگان نوا 104.17.171.70:443 [VLESS]
-      - سرویس رایگان نوا 104.17.113.207:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.107.171:8443 [VLESS]
-      - سرویس رایگان نوا 91.193.58.66:2083 [VLESS]
-      - سرویس رایگان نوا 104.19.33.54:443 [VLESS]
-      - سرویس رایگان نوا 8.39.125.154:2087 [VLESS]
-      - سرویس رایگان نوا 162.159.33.168:2087 [VLESS]
-      - سرویس رایگان نوا 8.35.211.180:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.156.194:443 [VLESS]
-      - سرویس رایگان نوا 104.19.149.49:2083 [VLESS]
-      - سرویس رایگان نوا 108.162.198.89:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.164.118:8443 [VLESS]
-      - سرویس رایگان نوا 104.17.51.54:2053 [VLESS]
+      - سرویس رایگان نوا 172.67.67.142:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.213.207:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.208.239:2096 [VLESS]
+      - سرویس رایگان نوا 198.41.223.74:8443 [VLESS]
+      - سرویس رایگان نوا 91.193.58.239:443 [VLESS]
+      - سرویس رایگان نوا 108.162.198.122:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.25.25:443 [VLESS]
+      - سرویس رایگان نوا 198.41.223.29:443 [VLESS]
+      - سرویس رایگان نوا 91.193.58.248:8443 [VLESS]
+      - سرویس رایگان نوا 91.193.58.80:8443 [VLESS]
+      - سرویس رایگان نوا 162.159.39.188:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.18.24:2053 [VLESS]
+      - سرویس رایگان نوا 8.35.211.147:2083 [VLESS]
+      - سرویس رایگان نوا 104.18.33.121:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.114.201:2096 [VLESS]
+      - سرویس رایگان نوا 104.19.33.248:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.164.85:2053 [VLESS]
+      - سرویس رایگان نوا 198.41.223.29:2053 [VLESS]
+      - سرویس رایگان نوا 104.19.32.144:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.29.157:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.30.157:2096 [VLESS]
+      - سرویس رایگان نوا 104.19.50.127:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.108.8:2083 [VLESS]
+      - سرویس رایگان نوا 104.16.245.92:8443 [VLESS]
+      - سرویس رایگان نوا 104.19.53.45:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.154.155:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.177.129:2096 [VLESS]
+      - سرویس رایگان نوا 173.245.59.8:443 [VLESS]
+      - سرویس رایگان نوا 173.245.58.122:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.187.21:2053 [VLESS]
+      - سرویس رایگان نوا 104.17.149.110:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.191.63:443 [VLESS]
+      - سرویس رایگان نوا 198.41.223.141:2087 [VLESS]
+      - سرویس رایگان نوا 198.41.209.157:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.210.8:2087 [VLESS]
+      - سرویس رایگان نوا 172.66.2.43:8443 [VLESS]
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - سرویس رایگان نوا blue.pirouziha.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا 172.66.3.140:443 [VLESS]
-      - سرویس رایگان نوا 104.18.33.177:443 [VLESS]
-      - سرویس رایگان نوا 173.245.58.146:2083 [VLESS]
-      - سرویس رایگان نوا 104.17.156.31:443 [VLESS]
-      - سرویس رایگان نوا 104.17.24.200:2083 [VLESS]
-      - سرویس رایگان نوا 104.17.114.212:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.102.108:2053 [VLESS]
-      - سرویس رایگان نوا 104.19.35.190:8443 [VLESS]
-      - سرویس رایگان نوا 104.17.210.23:2096 [VLESS]
-      - سرویس رایگان نوا 104.16.253.25:2096 [VLESS]
-      - سرویس رایگان نوا 104.18.33.247:8443 [VLESS]
-      - سرویس رایگان نوا 108.162.198.219:2096 [VLESS]
-      - سرویس رایگان نوا 104.26.9.34:8443 [VLESS]
-      - سرویس رایگان نوا 172.67.77.160:2087 [VLESS]
-      - سرویس رایگان نوا 173.245.58.98:2087 [VLESS]
-      - سرویس رایگان نوا 172.66.0.52:8443 [VLESS]
-      - سرویس رایگان نوا 172.67.77.107:2096 [VLESS]
-      - سرویس رایگان نوا 104.26.15.224:2053 [VLESS]
-      - سرویس رایگان نوا 104.19.34.81:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.18.149:8443 [VLESS]
-      - سرویس رایگان نوا 162.159.35.104:443 [VLESS]
-      - سرویس رایگان نوا 172.66.3.110:2083 [VLESS]
-      - سرویس رایگان نوا 104.17.161.132:2087 [VLESS]
-      - سرویس رایگان نوا 104.17.171.70:443 [VLESS]
-      - سرویس رایگان نوا 104.17.113.207:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.107.171:8443 [VLESS]
-      - سرویس رایگان نوا 91.193.58.66:2083 [VLESS]
-      - سرویس رایگان نوا 104.19.33.54:443 [VLESS]
-      - سرویس رایگان نوا 8.39.125.154:2087 [VLESS]
-      - سرویس رایگان نوا 162.159.33.168:2087 [VLESS]
-      - سرویس رایگان نوا 8.35.211.180:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.156.194:443 [VLESS]
-      - سرویس رایگان نوا 104.19.149.49:2083 [VLESS]
-      - سرویس رایگان نوا 108.162.198.89:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.164.118:8443 [VLESS]
-      - سرویس رایگان نوا 104.17.51.54:2053 [VLESS]
+      - سرویس رایگان نوا 172.67.67.142:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.213.207:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.208.239:2096 [VLESS]
+      - سرویس رایگان نوا 198.41.223.74:8443 [VLESS]
+      - سرویس رایگان نوا 91.193.58.239:443 [VLESS]
+      - سرویس رایگان نوا 108.162.198.122:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.25.25:443 [VLESS]
+      - سرویس رایگان نوا 198.41.223.29:443 [VLESS]
+      - سرویس رایگان نوا 91.193.58.248:8443 [VLESS]
+      - سرویس رایگان نوا 91.193.58.80:8443 [VLESS]
+      - سرویس رایگان نوا 162.159.39.188:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.18.24:2053 [VLESS]
+      - سرویس رایگان نوا 8.35.211.147:2083 [VLESS]
+      - سرویس رایگان نوا 104.18.33.121:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.114.201:2096 [VLESS]
+      - سرویس رایگان نوا 104.19.33.248:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.164.85:2053 [VLESS]
+      - سرویس رایگان نوا 198.41.223.29:2053 [VLESS]
+      - سرویس رایگان نوا 104.19.32.144:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.29.157:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.30.157:2096 [VLESS]
+      - سرویس رایگان نوا 104.19.50.127:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.108.8:2083 [VLESS]
+      - سرویس رایگان نوا 104.16.245.92:8443 [VLESS]
+      - سرویس رایگان نوا 104.19.53.45:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.154.155:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.177.129:2096 [VLESS]
+      - سرویس رایگان نوا 173.245.59.8:443 [VLESS]
+      - سرویس رایگان نوا 173.245.58.122:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.187.21:2053 [VLESS]
+      - سرویس رایگان نوا 104.17.149.110:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.191.63:443 [VLESS]
+      - سرویس رایگان نوا 198.41.223.141:2087 [VLESS]
+      - سرویس رایگان نوا 198.41.209.157:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.210.8:2087 [VLESS]
+      - سرویس رایگان نوا 172.66.2.43:8443 [VLESS]
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -207,42 +207,42 @@ proxy-groups:
     interval: 180
     proxies:
       - سرویس رایگان نوا blue.pirouziha.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا 172.66.3.140:443 [VLESS]
-      - سرویس رایگان نوا 104.18.33.177:443 [VLESS]
-      - سرویس رایگان نوا 173.245.58.146:2083 [VLESS]
-      - سرویس رایگان نوا 104.17.156.31:443 [VLESS]
-      - سرویس رایگان نوا 104.17.24.200:2083 [VLESS]
-      - سرویس رایگان نوا 104.17.114.212:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.102.108:2053 [VLESS]
-      - سرویس رایگان نوا 104.19.35.190:8443 [VLESS]
-      - سرویس رایگان نوا 104.17.210.23:2096 [VLESS]
-      - سرویس رایگان نوا 104.16.253.25:2096 [VLESS]
-      - سرویس رایگان نوا 104.18.33.247:8443 [VLESS]
-      - سرویس رایگان نوا 108.162.198.219:2096 [VLESS]
-      - سرویس رایگان نوا 104.26.9.34:8443 [VLESS]
-      - سرویس رایگان نوا 172.67.77.160:2087 [VLESS]
-      - سرویس رایگان نوا 173.245.58.98:2087 [VLESS]
-      - سرویس رایگان نوا 172.66.0.52:8443 [VLESS]
-      - سرویس رایگان نوا 172.67.77.107:2096 [VLESS]
-      - سرویس رایگان نوا 104.26.15.224:2053 [VLESS]
-      - سرویس رایگان نوا 104.19.34.81:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.18.149:8443 [VLESS]
-      - سرویس رایگان نوا 162.159.35.104:443 [VLESS]
-      - سرویس رایگان نوا 172.66.3.110:2083 [VLESS]
-      - سرویس رایگان نوا 104.17.161.132:2087 [VLESS]
-      - سرویس رایگان نوا 104.17.171.70:443 [VLESS]
-      - سرویس رایگان نوا 104.17.113.207:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.107.171:8443 [VLESS]
-      - سرویس رایگان نوا 91.193.58.66:2083 [VLESS]
-      - سرویس رایگان نوا 104.19.33.54:443 [VLESS]
-      - سرویس رایگان نوا 8.39.125.154:2087 [VLESS]
-      - سرویس رایگان نوا 162.159.33.168:2087 [VLESS]
-      - سرویس رایگان نوا 8.35.211.180:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.156.194:443 [VLESS]
-      - سرویس رایگان نوا 104.19.149.49:2083 [VLESS]
-      - سرویس رایگان نوا 108.162.198.89:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.164.118:8443 [VLESS]
-      - سرویس رایگان نوا 104.17.51.54:2053 [VLESS]
+      - سرویس رایگان نوا 172.67.67.142:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.213.207:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.208.239:2096 [VLESS]
+      - سرویس رایگان نوا 198.41.223.74:8443 [VLESS]
+      - سرویس رایگان نوا 91.193.58.239:443 [VLESS]
+      - سرویس رایگان نوا 108.162.198.122:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.25.25:443 [VLESS]
+      - سرویس رایگان نوا 198.41.223.29:443 [VLESS]
+      - سرویس رایگان نوا 91.193.58.248:8443 [VLESS]
+      - سرویس رایگان نوا 91.193.58.80:8443 [VLESS]
+      - سرویس رایگان نوا 162.159.39.188:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.18.24:2053 [VLESS]
+      - سرویس رایگان نوا 8.35.211.147:2083 [VLESS]
+      - سرویس رایگان نوا 104.18.33.121:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.114.201:2096 [VLESS]
+      - سرویس رایگان نوا 104.19.33.248:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.164.85:2053 [VLESS]
+      - سرویس رایگان نوا 198.41.223.29:2053 [VLESS]
+      - سرویس رایگان نوا 104.19.32.144:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.29.157:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.30.157:2096 [VLESS]
+      - سرویس رایگان نوا 104.19.50.127:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.108.8:2083 [VLESS]
+      - سرویس رایگان نوا 104.16.245.92:8443 [VLESS]
+      - سرویس رایگان نوا 104.19.53.45:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.154.155:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.177.129:2096 [VLESS]
+      - سرویس رایگان نوا 173.245.59.8:443 [VLESS]
+      - سرویس رایگان نوا 173.245.58.122:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.187.21:2053 [VLESS]
+      - سرویس رایگان نوا 104.17.149.110:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.191.63:443 [VLESS]
+      - سرویس رایگان نوا 198.41.223.141:2087 [VLESS]
+      - سرویس رایگان نوا 198.41.209.157:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.210.8:2087 [VLESS]
+      - سرویس رایگان نوا 172.66.2.43:8443 [VLESS]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -269,42 +269,42 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا blue.pirouziha.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا 172.66.3.140:443 [VLESS]
-      - سرویس رایگان نوا 104.18.33.177:443 [VLESS]
-      - سرویس رایگان نوا 173.245.58.146:2083 [VLESS]
-      - سرویس رایگان نوا 104.17.156.31:443 [VLESS]
-      - سرویس رایگان نوا 104.17.24.200:2083 [VLESS]
-      - سرویس رایگان نوا 104.17.114.212:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.102.108:2053 [VLESS]
-      - سرویس رایگان نوا 104.19.35.190:8443 [VLESS]
-      - سرویس رایگان نوا 104.17.210.23:2096 [VLESS]
-      - سرویس رایگان نوا 104.16.253.25:2096 [VLESS]
-      - سرویس رایگان نوا 104.18.33.247:8443 [VLESS]
-      - سرویس رایگان نوا 108.162.198.219:2096 [VLESS]
-      - سرویس رایگان نوا 104.26.9.34:8443 [VLESS]
-      - سرویس رایگان نوا 172.67.77.160:2087 [VLESS]
-      - سرویس رایگان نوا 173.245.58.98:2087 [VLESS]
-      - سرویس رایگان نوا 172.66.0.52:8443 [VLESS]
-      - سرویس رایگان نوا 172.67.77.107:2096 [VLESS]
-      - سرویس رایگان نوا 104.26.15.224:2053 [VLESS]
-      - سرویس رایگان نوا 104.19.34.81:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.18.149:8443 [VLESS]
-      - سرویس رایگان نوا 162.159.35.104:443 [VLESS]
-      - سرویس رایگان نوا 172.66.3.110:2083 [VLESS]
-      - سرویس رایگان نوا 104.17.161.132:2087 [VLESS]
-      - سرویس رایگان نوا 104.17.171.70:443 [VLESS]
-      - سرویس رایگان نوا 104.17.113.207:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.107.171:8443 [VLESS]
-      - سرویس رایگان نوا 91.193.58.66:2083 [VLESS]
-      - سرویس رایگان نوا 104.19.33.54:443 [VLESS]
-      - سرویس رایگان نوا 8.39.125.154:2087 [VLESS]
-      - سرویس رایگان نوا 162.159.33.168:2087 [VLESS]
-      - سرویس رایگان نوا 8.35.211.180:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.156.194:443 [VLESS]
-      - سرویس رایگان نوا 104.19.149.49:2083 [VLESS]
-      - سرویس رایگان نوا 108.162.198.89:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.164.118:8443 [VLESS]
-      - سرویس رایگان نوا 104.17.51.54:2053 [VLESS]
+      - سرویس رایگان نوا 172.67.67.142:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.213.207:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.208.239:2096 [VLESS]
+      - سرویس رایگان نوا 198.41.223.74:8443 [VLESS]
+      - سرویس رایگان نوا 91.193.58.239:443 [VLESS]
+      - سرویس رایگان نوا 108.162.198.122:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.25.25:443 [VLESS]
+      - سرویس رایگان نوا 198.41.223.29:443 [VLESS]
+      - سرویس رایگان نوا 91.193.58.248:8443 [VLESS]
+      - سرویس رایگان نوا 91.193.58.80:8443 [VLESS]
+      - سرویس رایگان نوا 162.159.39.188:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.18.24:2053 [VLESS]
+      - سرویس رایگان نوا 8.35.211.147:2083 [VLESS]
+      - سرویس رایگان نوا 104.18.33.121:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.114.201:2096 [VLESS]
+      - سرویس رایگان نوا 104.19.33.248:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.164.85:2053 [VLESS]
+      - سرویس رایگان نوا 198.41.223.29:2053 [VLESS]
+      - سرویس رایگان نوا 104.19.32.144:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.29.157:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.30.157:2096 [VLESS]
+      - سرویس رایگان نوا 104.19.50.127:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.108.8:2083 [VLESS]
+      - سرویس رایگان نوا 104.16.245.92:8443 [VLESS]
+      - سرویس رایگان نوا 104.19.53.45:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.154.155:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.177.129:2096 [VLESS]
+      - سرویس رایگان نوا 173.245.59.8:443 [VLESS]
+      - سرویس رایگان نوا 173.245.58.122:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.187.21:2053 [VLESS]
+      - سرویس رایگان نوا 104.17.149.110:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.191.63:443 [VLESS]
+      - سرویس رایگان نوا 198.41.223.141:2087 [VLESS]
+      - سرویس رایگان نوا 198.41.209.157:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.210.8:2087 [VLESS]
+      - سرویس رایگان نوا 172.66.2.43:8443 [VLESS]
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -317,42 +317,42 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا blue.pirouziha.dpdns.org:443 [VLESS]
-      - سرویس رایگان نوا 172.66.3.140:443 [VLESS]
-      - سرویس رایگان نوا 104.18.33.177:443 [VLESS]
-      - سرویس رایگان نوا 173.245.58.146:2083 [VLESS]
-      - سرویس رایگان نوا 104.17.156.31:443 [VLESS]
-      - سرویس رایگان نوا 104.17.24.200:2083 [VLESS]
-      - سرویس رایگان نوا 104.17.114.212:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.102.108:2053 [VLESS]
-      - سرویس رایگان نوا 104.19.35.190:8443 [VLESS]
-      - سرویس رایگان نوا 104.17.210.23:2096 [VLESS]
-      - سرویس رایگان نوا 104.16.253.25:2096 [VLESS]
-      - سرویس رایگان نوا 104.18.33.247:8443 [VLESS]
-      - سرویس رایگان نوا 108.162.198.219:2096 [VLESS]
-      - سرویس رایگان نوا 104.26.9.34:8443 [VLESS]
-      - سرویس رایگان نوا 172.67.77.160:2087 [VLESS]
-      - سرویس رایگان نوا 173.245.58.98:2087 [VLESS]
-      - سرویس رایگان نوا 172.66.0.52:8443 [VLESS]
-      - سرویس رایگان نوا 172.67.77.107:2096 [VLESS]
-      - سرویس رایگان نوا 104.26.15.224:2053 [VLESS]
-      - سرویس رایگان نوا 104.19.34.81:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.18.149:8443 [VLESS]
-      - سرویس رایگان نوا 162.159.35.104:443 [VLESS]
-      - سرویس رایگان نوا 172.66.3.110:2083 [VLESS]
-      - سرویس رایگان نوا 104.17.161.132:2087 [VLESS]
-      - سرویس رایگان نوا 104.17.171.70:443 [VLESS]
-      - سرویس رایگان نوا 104.17.113.207:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.107.171:8443 [VLESS]
-      - سرویس رایگان نوا 91.193.58.66:2083 [VLESS]
-      - سرویس رایگان نوا 104.19.33.54:443 [VLESS]
-      - سرویس رایگان نوا 8.39.125.154:2087 [VLESS]
-      - سرویس رایگان نوا 162.159.33.168:2087 [VLESS]
-      - سرویس رایگان نوا 8.35.211.180:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.156.194:443 [VLESS]
-      - سرویس رایگان نوا 104.19.149.49:2083 [VLESS]
-      - سرویس رایگان نوا 108.162.198.89:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.164.118:8443 [VLESS]
-      - سرویس رایگان نوا 104.17.51.54:2053 [VLESS]
+      - سرویس رایگان نوا 172.67.67.142:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.213.207:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.208.239:2096 [VLESS]
+      - سرویس رایگان نوا 198.41.223.74:8443 [VLESS]
+      - سرویس رایگان نوا 91.193.58.239:443 [VLESS]
+      - سرویس رایگان نوا 108.162.198.122:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.25.25:443 [VLESS]
+      - سرویس رایگان نوا 198.41.223.29:443 [VLESS]
+      - سرویس رایگان نوا 91.193.58.248:8443 [VLESS]
+      - سرویس رایگان نوا 91.193.58.80:8443 [VLESS]
+      - سرویس رایگان نوا 162.159.39.188:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.18.24:2053 [VLESS]
+      - سرویس رایگان نوا 8.35.211.147:2083 [VLESS]
+      - سرویس رایگان نوا 104.18.33.121:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.114.201:2096 [VLESS]
+      - سرویس رایگان نوا 104.19.33.248:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.164.85:2053 [VLESS]
+      - سرویس رایگان نوا 198.41.223.29:2053 [VLESS]
+      - سرویس رایگان نوا 104.19.32.144:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.29.157:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.30.157:2096 [VLESS]
+      - سرویس رایگان نوا 104.19.50.127:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.108.8:2083 [VLESS]
+      - سرویس رایگان نوا 104.16.245.92:8443 [VLESS]
+      - سرویس رایگان نوا 104.19.53.45:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.154.155:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.177.129:2096 [VLESS]
+      - سرویس رایگان نوا 173.245.59.8:443 [VLESS]
+      - سرویس رایگان نوا 173.245.58.122:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.187.21:2053 [VLESS]
+      - سرویس رایگان نوا 104.17.149.110:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.191.63:443 [VLESS]
+      - سرویس رایگان نوا 198.41.223.141:2087 [VLESS]
+      - سرویس رایگان نوا 198.41.209.157:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.210.8:2087 [VLESS]
+      - سرویس رایگان نوا 172.66.2.43:8443 [VLESS]
 rules:
 # PHISHING BLOCK RULES
   - GEOSITE,category-phishing,REJECT
